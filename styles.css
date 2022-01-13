@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+  }
+  
+
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: "Arial", sans-serif;
+  }
+
+  #header{
+    width: 100%;
+    text-align: center;
+    background-color: #005A43;
+  }
+
+  .logo{
+    margin-top: -10vh;
+    margin-bottom: -10vh;
+  }
+
+  #text{
+    font-family: Blippo, fantasy;
+    font-size: 40px;
+    height: 20vh;
+  }
+
+  .links{
+    padding: 0px 30px;
+    color: #e0e6e4;
+  }
+
+  .links:hover{
+    color:black;
+  }
+
+  .fadeIn {
+    animation: fadeIn ease 4s;
+  }
+
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  .pin{
+    width: 15em;
+    height: 12em;
+  }
+
+  #pin1{
+    position: relative;
+    transform: rotate(32deg);
+    top:-300pt;
+    right:220px;
+  }
+
+  #pin2{
+    position: relative;
+    transform: rotate(125deg);
+    top:-520pt;
+    right:305px;
+  }
+
+  #pin3{
+    position: relative;
+    transform: rotate(-34deg);
+    top:-700pt;
+    right:400px;
+  } 
+
+  #pin4{
+    position: relative;
+    transform: rotate(-70deg);
+    top:-500pt;
+    left:350px;
+  }
+
+  #pin5{
+    position: relative;
+    transform: rotate(65deg);
+    top:-650pt;
+    left:300px;
+  }
+
+  #pin6{
+    position: relative;
+    transform: rotate(-24deg);
+    top:-350pt;
+    left:50px;
+  }
+
+  #bImg{
+  background-image: url("images/teampic.jpg") !important;
+  opacity: .75;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 50vh;
+  background-size: 210vh 90vh;
+  margin: 0;
+  }
+
+
+ #headAbout{
+    opacity: 1;
+    font-size: 56px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    /*border: solid #e0e6e4 2px;*/
+ }
+
+ #bodyAbout{
+  opacity: 1;
+  text-align: center;
+  /*border: solid rgb(39, 38, 38) 2px;*/
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+ }
+
+ .about p{
+  font-size: 24px;
+  padding: 0px 150px;
+ }
+
+ .about{
+  background: black;
+   font-family: Helvetica;
+   color: #e6e6e6dc;
+   padding: 25px;
+   line-height: 1.5;
+   padding-top: 0;
+   padding-left: 0;
+   padding-right: 0;
+ }
+
+  p strong:first-of-type {
+    font-size: 36px;
+ }
+
+
+ #leagueImage{
+  width: 16em;
+  height: 32em;
+  margin-right: -2vh;
+ }
+
+ .box{
+  display: flex;
+  align-items: top;
+ }
+
+
+ #leaguebody{
+   display: inline;
+   margin: 0;
+   padding: 1vh;
+   text-align: center;
+ }
+
+ .league{
+   padding-top: 10vh;
+ }
