@@ -22,12 +22,14 @@
   .logo{
     margin-top: -10vh;
     margin-bottom: -10vh;
+    width: 120vh;
+    height: 120vh;
   }
 
   #text{
     font-family: Blippo, fantasy;
     font-size: 40px;
-    height: 20vh;
+    height: 50vh;
   }
 
   .links{
@@ -40,7 +42,7 @@
   }
 
   .fadeIn {
-    animation: fadeIn ease 4s;
+    animation: fadeIn ease 5s;
   }
 
   @keyframes fadeIn {
@@ -96,12 +98,12 @@
   }
 
   #bImg{
-  background-image: url("images/teampic.jpg") !important;
+  background-image: url("images/teampiccropped.jpg") !important;
   opacity: .75;
   background-repeat: no-repeat;
   background-position: top center;
   height: 50vh;
-  background-size: 210vh 90vh;
+  background-size: 210vh 95vh;
   margin: 0;
   }
 
@@ -110,7 +112,7 @@
     opacity: 1;
     font-size: 56px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: #e6e6e6dc;
     font-weight: bold;
     /*border: solid #e0e6e4 2px;*/
  }
@@ -119,12 +121,12 @@
   opacity: 1;
   text-align: center;
   /*border: solid rgb(39, 38, 38) 2px;*/
-  color: rgb(0, 0, 0);
+  color: #e6e6e6dc;
   font-weight: bold;
  }
 
  .about p{
-  font-size: 24px;
+  font-size: 22px;
   padding: 0px 150px;
  }
 
@@ -159,10 +161,47 @@
  #leaguebody{
    display: inline;
    margin: 0;
-   padding: 1vh;
+   padding: 1vh 2vh;
    text-align: center;
  }
 
  .league{
    padding-top: 10vh;
  }
+
+ #aboutAbout{
+   border: solid #e6e6e6dc 2px;
+   padding-bottom: 5vh;
+ }
+
+ #practiceImage{
+  width: 24em;
+  height: 24em;
+  margin-right: -2vh;
+ }
+
+ #practicebody{
+  display: inline;
+  margin: 0;
+  padding: 1vh 2vh;
+  text-align: center;
+}
+
+.practice{
+  padding-top: 5vh;
+}
+
+.tournament{
+  background-color: #005A43;
+  font-family: Helvetica;
+}
+
+#thead{
+  text-align: center;
+  padding: 2vh;
+  font-size: 22pt;
+}
+
+#headtourn{
+  font-size: 36pt;
+}
