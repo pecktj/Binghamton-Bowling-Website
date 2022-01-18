@@ -107,6 +107,16 @@
   margin: 0;
   }
 
+  #uImg{
+    background-image: url("images/University.jpg") !important;
+    opacity: .75;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30vh;
+    background-size: 220vh 90vh;
+    margin: 0;
+    }
+
 
  #headAbout{
     opacity: 1;
@@ -194,14 +204,158 @@
 .tournament{
   background-color: #005A43;
   font-family: Helvetica;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 15vh;
+  padding-right: 15vh;
 }
 
 #thead{
   text-align: center;
   padding: 2vh;
-  font-size: 22pt;
+  font-size: 22px;
 }
 
 #headtourn{
-  font-size: 36pt;
+  font-size: 56px;
+}
+
+#tmain{
+  text-align: center;
+  padding-top: 5vh;
+}
+
+#schen{
+  width: 18em;
+  height: 18em;
+}
+
+#suffolk{
+  width: 18em;
+  height: 18em;
+}
+
+.pads{
+  padding-right: 16vh;
+  padding-left: 16vh;
+  padding-bottom: 3vh;
+  padding-top: 10vh;
+}
+
+.container {
+  display: flex;
+}
+
+.containerR{
+  position: relative;
+}
+
+.child {
+  flex: 1;
+}  
+
+.child:first-child {
+  margin-right: 20px;
+} 
+
+#schenBody{
+  font-size: 22px;
+  font-weight:bold;
+}
+
+#suffolkBody{
+  font-size: 22px;
+  font-weight:bold;
+}
+
+#filler{
+  height:22vh;
+}
+
+.circlesize{
+  height: 32vh;
+  width: 32vh;
+}
+
+.block{
+  position: absolute;
+  top: 54%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #005A43;
+}
+
+#Website{
+  font-size: 6vh;
+  color: #005A43
+}
+
+#admit{
+  font-size: 5vh;
+  color: #005A43
+}
+
+#life{
+  font-size: 6vh;
+  color: #005A43
+}
+
+.pLinks:hover{
+  color:white !important;
+}
+
+#contacthead{
+  text-align:center;
+}
+
+#contactT{
+  font-size: 56px;
+}
+
+#contactBody{
+  font-size: 22px;
+  padding-top: 0px;
+}
+
+#contact{
+  padding: 0px;
+}
+
+#insta{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 32vh;
+  width: 32vh;
+}
+
+#mail{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 32vh;
+  width: 32vh;
+}
+
+#face{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 32vh;
+  width: 32vh;
+}
+
+.mediaPads:hover {
+  transform: scale(1.3);
+  }
+
+.mediaPads{
+  padding-right: 0vh;
+  padding-left: 0vh;
+  padding-bottom: 3vh;
+  padding-top: 10vh;
 }
