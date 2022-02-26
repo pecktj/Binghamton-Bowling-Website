@@ -28,19 +28,21 @@
     font-size: 3vh;
     border: 0;
     outline: none;
-    width: 85%;
-    margin: 2vh auto 0;
-    border-radius: 3vh;
+    width: 75%;
+    margin: 0vh auto;
     opacity: 85%;
+    border: solid rgb(48, 44, 44) 1px;
   }
 
   .container{
     display: grid;
+    
   }
 
   p{ 
     text-align: center;
      vertical-align:80px;
+     font-size: 2.8vh;
  }
 
  .header {
@@ -54,3 +56,21 @@
   background: linear-gradient(0deg, rgba(0,0,0,1) 40%, rgba(0,90,67,1) 100%);
   padding-bottom: 2vh;
 }
+
+.containerR {
+  display: flex;
+}
+
+.child {
+  padding: 1vh 6vh;
+  flex: 1;
+}  
+
+.child:first-child {
+  margin-right: 20px;
+} 
+
+.child:nth-child(2) {
+  padding-left: 0;
+  margin-right: 20px;
+} 

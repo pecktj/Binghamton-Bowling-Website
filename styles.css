@@ -29,7 +29,7 @@
   #text{
     font-family: Blippo, fantasy;
     font-size: 40px;
-    height: 50vh;
+    height: 20vh;
   }
 
   .links{
@@ -98,13 +98,14 @@
   }
 
   #bImg{
-  background-image: url("images/North.jpg") !important;
+  background-image: url("images/LI.jpeg") !important;
   opacity: .75;
   background-repeat: no-repeat;
-  background-position: top center;
-  height: 65vh;
+  background-position: center;
+  height: 80vh;
   background-size: 210vh 125vh;
   margin: 0;
+  border-top: solid black 1px;
   }
 
   #bImg2{
@@ -116,6 +117,8 @@
     height: 65vh;
     background-size: 210vh 125vh;
     margin: 0;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
     }
 
   #uImg{
@@ -144,6 +147,15 @@
   /*border: solid rgb(39, 38, 38) 2px;*/
   color: #d8c9c9dc;
   font-weight: bold;
+ }
+
+ #EventsAbout{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #d8c9c9dc;
+  padding: 25px;
+  opacity: 1;
+  text-align: center;
+  /*border: solid rgb(39, 38, 38) 2px;*/
  }
 
  #about{
@@ -450,16 +462,19 @@ form input, form textarea{
 .Roster{
   text-decoration: none;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 4vh 40vh;
-  background: black;
-  color: #005A43;
-  font-size: 6vh;
+  padding: 4vh 20vh;
+  background: rgb(0, 0, 0);
+  color: #d6cecedc;
+  font-size: 8vh;
   border: 0;
   outline: none;
   cursor: pointer;
   width: 75%;
-  margin: 20px auto 0;
   border-radius: 30px;
+  margin: 20px auto 0;
+  font-weight: bold; 
 }
 
-
+.Roster:hover {
+  opacity: 70%;
+  }
